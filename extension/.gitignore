@@ -1,0 +1,76 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+out/
+build/
+dist/
+
+# plasmo
+.plasmo
+
+# typescript
+.tsbuildinfo
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+backend/models/checkpoints/
+backend/models/trained/
+
+# Dataset artifacts
+backend/datasets/processed/
+backend/datasets/final/
+
+# Environment
+.env
+
+# VSCode
+.vscode/
+
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+extension/backend/datasets/raw/
+extension/backend/datasets/final/
+extension/backend/datasets/processed/
+
+# Models
+extension/backend/models/checkpoints/
+extension/backend/models/trained/
+
+# Env
+.env
